@@ -2,16 +2,12 @@
 # GUI-Based Chat Application
 
 ## Overview
-A desktop client-server chat application enabling real-time text communication 
-between two users over a local network using Java socket programming.
+A desktop client-server chat application enabling real-time text communication between two users over a local network using Java socket programming.
 
 ## Architecture
-- **Server:** Listens on port 6001, accepts client connections, handles 
-  message exchange
-- **Client:** Connects to server via socket, sends and receives messages 
-  in real time
-- **Communication:** Java Socket Programming with DataInputStream 
-  and DataOutputStream
+- **Server:** Listens on port 6001, accepts client connections, handles message exchange
+- **Client:** Connects to server via socket, sends and receives messages in real time
+- **Communication:** Java Socket Programming with DataInputStream and DataOutputStream
 
 ## Features
 - Real-time bidirectional text messaging
@@ -36,14 +32,17 @@ between two users over a local network using Java socket programming.
    java -cp bin chatting.application.Server
 6. Run Client in a separate terminal:
    java -cp bin chatting.application.Client
-4. Both windows open — type in either to chat in real time
+7. Both windows open — type in either to chat in real time
 
 ## Project Structure
-gui-chat-application/
+Chat App/
 │
-├── Client.java     # Client-side GUI and socket connection
-├── Server.java     # Server-side GUI and socket listener
-└── icons/          # UI icons and profile images
+├── src
+     ├── chatting
+           ├── application
+                  ├── Client.java
+                  ├── Server.java
+├── icons #containing all images
 
 ## References
 - www.youtube.com
