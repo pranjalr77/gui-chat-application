@@ -1,3 +1,4 @@
+
 # GUI-Based Chat Application
 
 ## Overview
@@ -25,12 +26,16 @@ between two users over a local network using Java socket programming.
 - DataInputStream / DataOutputStream
 
 ## How to Run
-1. Compile both files:
-   javac Client.java Server.java
-2. Run Server first:
-   java Server
-3. Run Client in a separate terminal:
-   java Client
+1. Create Java Project named: Chat App
+2. Keep both the java files: Server.java, Client.java inside src as shown below
+   src->chatting->application-> Client.java, Server.java
+3. In src, keep icons folder containing all images
+4. Compile both files:
+   javac -d bin src/chatting/application/*.java
+5. Run Server first:
+   java -cp bin chatting.application.Server
+6. Run Client in a separate terminal:
+   java -cp bin chatting.application.Client
 4. Both windows open — type in either to chat in real time
 
 ## Project Structure
@@ -40,4 +45,6 @@ gui-chat-application/
 ├── Server.java     # Server-side GUI and socket listener
 └── icons/          # UI icons and profile images
 
-
+## References
+- www.youtube.com
+- www.geeksforgeeks.org
