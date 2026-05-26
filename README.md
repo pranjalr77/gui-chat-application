@@ -35,14 +35,9 @@ A desktop client-server chat application enabling real-time text communication b
 7. Both windows open — type in either to chat in real time
 
 ## Project Structure
-Chat App/
-│
-├── src/
-     ├── chatting/
-           ├── application/
-                  ├── Client.java
-                  ├── Server.java
-├── icons/ #containing all images
+Chat App/src/chatting/application/ Client.java
+Chat App/src/chatting/application/ Server.java
+Chat App/src/icons/ #containing all images
 
 ## References
 - www.youtube.com
