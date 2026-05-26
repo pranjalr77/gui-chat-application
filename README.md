@@ -40,6 +40,4 @@ gui-chat-application/
 ├── Server.java     # Server-side GUI and socket listener
 └── icons/          # UI icons and profile images
 
-## Author
-**Pranjal Rathod**
-M.Tech Computer Science & Engineering | Sardar VallabhbhaiNational Institute of Technology
+
