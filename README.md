@@ -37,12 +37,12 @@ A desktop client-server chat application enabling real-time text communication b
 ## Project Structure
 Chat App/
 │
-├── src
-     ├── chatting
-           ├── application
+├── src/
+     ├── chatting/
+           ├── application/
                   ├── Client.java
                   ├── Server.java
-├── icons #containing all images
+├── icons/ #containing all images
 
 ## References
 - www.youtube.com
