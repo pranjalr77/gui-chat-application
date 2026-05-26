@@ -22,17 +22,15 @@ A desktop client-server chat application enabling real-time text communication b
 - DataInputStream / DataOutputStream
 
 ## How to Run
-1. Create Java Project named: Chat App
-2. Keep both the java files: Server.java, Client.java inside src as shown below
-   src->chatting->application-> Client.java, Server.java
-3. In src, keep icons folder containing all images
-4. Compile both files:
+1. Unzip the Chat App.zip file
+2. Open Folder named Chat App in Code Editor
+3. Compile project:
    javac -d bin src/chatting/application/*.java
-5. Run Server first:
+4. Run Server first:
    java -cp bin chatting.application.Server
-6. Run Client in a separate terminal:
+5. Run Client in a separate terminal:
    java -cp bin chatting.application.Client
-7. Both windows open — type in either to chat in real time
+6. Both windows open — type in either to chat in real time
 
 ## Project Structure
 - Chat App/src/chatting/application/ Client.java
