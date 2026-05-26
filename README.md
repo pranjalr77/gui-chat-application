@@ -40,3 +40,4 @@ A desktop client-server chat application enabling real-time text communication b
 ## References
 - www.youtube.com
 - www.geeksforgeeks.org
+- www.flaticon.com
